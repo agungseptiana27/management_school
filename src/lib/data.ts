@@ -917,154 +917,257 @@ export const announcementsData = [
 
 
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
-export const calendarEvents = [
-  // 📅 Senin, 22 September 2025
-  {
-    title: "Math",
-    allDay: false,
-    start: new Date(2025, 8, 22, 8, 0),
-    end: new Date(2025, 8, 22, 8, 45),
-  },
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(2025, 8, 22, 9, 0),
-    end: new Date(2025, 8, 22, 9, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2025, 8, 22, 10, 0),
-    end: new Date(2025, 8, 22, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2025, 8, 22, 11, 0),
-    end: new Date(2025, 8, 22, 11, 45),
-  },
-  {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2025, 8, 22, 13, 0),
-    end: new Date(2025, 8, 22, 13, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2025, 8, 22, 14, 0),
-    end: new Date(2025, 8, 22, 14, 45),
-  },
+// export const calendarEvents = [
+//   // 📅 Senin, 22 September 2025
+//   {
+//     title: "Math",
+//     allDay: false,
+//     start: new Date(2025, 8, 22, 8, 0),
+//     end: new Date(2025, 8, 22, 8, 45),
+//   },
+//   {
+//     title: "English",
+//     allDay: false,
+//     start: new Date(2025, 8, 22, 9, 0),
+//     end: new Date(2025, 8, 22, 9, 45),
+//   },
+//   {
+//     title: "Biology",
+//     allDay: false,
+//     start: new Date(2025, 8, 22, 10, 0),
+//     end: new Date(2025, 8, 22, 10, 45),
+//   },
+//   {
+//     title: "Physics",
+//     allDay: false,
+//     start: new Date(2025, 8, 22, 11, 0),
+//     end: new Date(2025, 8, 22, 11, 45),
+//   },
+//   {
+//     title: "Chemistry",
+//     allDay: false,
+//     start: new Date(2025, 8, 22, 13, 0),
+//     end: new Date(2025, 8, 22, 13, 45),
+//   },
+//   {
+//     title: "History",
+//     allDay: false,
+//     start: new Date(2025, 8, 22, 14, 0),
+//     end: new Date(2025, 8, 22, 14, 45),
+//   },
 
-  // 📅 Selasa, 23 September 2025
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(2025, 8, 23, 9, 0),
-    end: new Date(2025, 8, 23, 9, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2025, 8, 23, 10, 0),
-    end: new Date(2025, 8, 23, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2025, 8, 23, 11, 0),
-    end: new Date(2025, 8, 23, 11, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2025, 8, 23, 14, 0),
-    end: new Date(2025, 8, 23, 14, 45),
-  },
+//   // 📅 Selasa, 23 September 2025
+//   {
+//     title: "English",
+//     allDay: false,
+//     start: new Date(2025, 8, 23, 9, 0),
+//     end: new Date(2025, 8, 23, 9, 45),
+//   },
+//   {
+//     title: "Biology",
+//     allDay: false,
+//     start: new Date(2025, 8, 23, 10, 0),
+//     end: new Date(2025, 8, 23, 10, 45),
+//   },
+//   {
+//     title: "Physics",
+//     allDay: false,
+//     start: new Date(2025, 8, 23, 11, 0),
+//     end: new Date(2025, 8, 23, 11, 45),
+//   },
+//   {
+//     title: "History",
+//     allDay: false,
+//     start: new Date(2025, 8, 23, 14, 0),
+//     end: new Date(2025, 8, 23, 14, 45),
+//   },
 
-  // 📅 Rabu, 24 September 2025
-  {
-    title: "Math",
-    allDay: false,
-    start: new Date(2025, 8, 24, 8, 0),
-    end: new Date(2025, 8, 24, 8, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2025, 8, 24, 10, 0),
-    end: new Date(2025, 8, 24, 10, 45),
-  },
-  {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2025, 8, 24, 13, 0),
-    end: new Date(2025, 8, 24, 13, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2025, 8, 24, 14, 0),
-    end: new Date(2025, 8, 24, 14, 45),
-  },
+//   // 📅 Rabu, 24 September 2025
+//   {
+//     title: "Math",
+//     allDay: false,
+//     start: new Date(2025, 8, 24, 8, 0),
+//     end: new Date(2025, 8, 24, 8, 45),
+//   },
+//   {
+//     title: "Biology",
+//     allDay: false,
+//     start: new Date(2025, 8, 24, 10, 0),
+//     end: new Date(2025, 8, 24, 10, 45),
+//   },
+//   {
+//     title: "Chemistry",
+//     allDay: false,
+//     start: new Date(2025, 8, 24, 13, 0),
+//     end: new Date(2025, 8, 24, 13, 45),
+//   },
+//   {
+//     title: "History",
+//     allDay: false,
+//     start: new Date(2025, 8, 24, 14, 0),
+//     end: new Date(2025, 8, 24, 14, 45),
+//   },
 
-  // 📅 Kamis, 25 September 2025
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(2025, 8, 25, 9, 0),
-    end: new Date(2025, 8, 25, 9, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2025, 8, 25, 10, 0),
-    end: new Date(2025, 8, 25, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2025, 8, 25, 11, 0),
-    end: new Date(2025, 8, 25, 11, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2025, 8, 25, 14, 0),
-    end: new Date(2025, 8, 25, 14, 45),
-  },
+//   // 📅 Kamis, 25 September 2025
+//   {
+//     title: "English",
+//     allDay: false,
+//     start: new Date(2025, 8, 25, 9, 0),
+//     end: new Date(2025, 8, 25, 9, 45),
+//   },
+//   {
+//     title: "Biology",
+//     allDay: false,
+//     start: new Date(2025, 8, 25, 10, 0),
+//     end: new Date(2025, 8, 25, 10, 45),
+//   },
+//   {
+//     title: "Physics",
+//     allDay: false,
+//     start: new Date(2025, 8, 25, 11, 0),
+//     end: new Date(2025, 8, 25, 11, 45),
+//   },
+//   {
+//     title: "History",
+//     allDay: false,
+//     start: new Date(2025, 8, 25, 14, 0),
+//     end: new Date(2025, 8, 25, 14, 45),
+//   },
 
-  // 📅 Jumat, 26 September 2025
-  {
-    title: "Math",
-    allDay: false,
-    start: new Date(2025, 8, 26, 8, 0),
-    end: new Date(2025, 8, 26, 8, 45),
-  },
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(2025, 8, 26, 9, 0),
-    end: new Date(2025, 8, 26, 9, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2025, 8, 26, 11, 0),
-    end: new Date(2025, 8, 26, 11, 45),
-  },
-  {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2025, 8, 26, 13, 0),
-    end: new Date(2025, 8, 26, 13, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2025, 8, 26, 14, 0),
-    end: new Date(2025, 8, 26, 14, 45),
-  },
-];
+//   // 📅 Jumat, 26 September 2025
+//   {
+//     title: "Math",
+//     allDay: false,
+//     start: new Date(2025, 8, 26, 8, 0),
+//     end: new Date(2025, 8, 26, 8, 45),
+//   },
+//   {
+//     title: "English",
+//     allDay: false,
+//     start: new Date(2025, 8, 26, 9, 0),
+//     end: new Date(2025, 8, 26, 9, 45),
+//   },
+//   {
+//     title: "Physics",
+//     allDay: false,
+//     start: new Date(2025, 8, 26, 11, 0),
+//     end: new Date(2025, 8, 26, 11, 45),
+//   },
+//   {
+//     title: "Chemistry",
+//     allDay: false,
+//     start: new Date(2025, 8, 26, 13, 0),
+//     end: new Date(2025, 8, 26, 13, 45),
+//   },
+//   {
+//     title: "History",
+//     allDay: false,
+//     start: new Date(2025, 8, 26, 14, 0),
+//     end: new Date(2025, 8, 26, 14, 45),
+//   },
+// ];
+
+// 📅 Template jadwal mingguan (Senin–Jumat)
+
+interface Lesson {
+  title: string;
+  startHour: number;
+  endHour: number;
+  endMinute: number;
+}
+
+const weeklySchedule: Record<number, Lesson[]> = {
+  1: [ // Senin
+    { title: "Math", startHour: 8, endHour: 8, endMinute: 45 },
+    { title: "English", startHour: 9, endHour: 9, endMinute: 45 },
+    { title: "Biology", startHour: 10, endHour: 10, endMinute: 45 },
+    { title: "Physics", startHour: 11, endHour: 11, endMinute: 45 },
+    { title: "Chemistry", startHour: 13, endHour: 13, endMinute: 45 },
+    { title: "History", startHour: 14, endHour: 14, endMinute: 45 },
+  ],
+  2: [ // Selasa
+    { title: "English", startHour: 9, endHour: 9, endMinute: 45 },
+    { title: "Biology", startHour: 10, endHour: 10, endMinute: 45 },
+    { title: "Physics", startHour: 11, endHour: 11, endMinute: 45 },
+    { title: "History", startHour: 14, endHour: 14, endMinute: 45 },
+  ],
+  3: [ // Rabu
+    { title: "Math", startHour: 8, endHour: 8, endMinute: 45 },
+    { title: "Biology", startHour: 10, endHour: 10, endMinute: 45 },
+    { title: "Chemistry", startHour: 13, endHour: 13, endMinute: 45 },
+    { title: "History", startHour: 14, endHour: 14, endMinute: 45 },
+  ],
+  4: [ // Kamis
+    { title: "English", startHour: 9, endHour: 9, endMinute: 45 },
+    { title: "Biology", startHour: 10, endHour: 10, endMinute: 45 },
+    { title: "Physics", startHour: 11, endHour: 11, endMinute: 45 },
+    { title: "History", startHour: 14, endHour: 14, endMinute: 45 },
+  ],
+  5: [ // Jumat
+    { title: "Math", startHour: 8, endHour: 8, endMinute: 45 },
+    { title: "English", startHour: 9, endHour: 9, endMinute: 45 },
+    { title: "Physics", startHour: 11, endHour: 11, endMinute: 45 },
+    { title: "Chemistry", startHour: 13, endHour: 13, endMinute: 45 },
+    { title: "History", startHour: 14, endHour: 14, endMinute: 45 },
+  ],
+};
+
+
+// Fungsi untuk generate events selamanya (misalnya untuk 1 tahun ke depan)
+export function generateCalendarEvents(
+  startDate: Date,
+  months: number = 12
+) {
+  const events: any[] = [];
+  const current = new Date(startDate);
+
+  // looping selama jumlah bulan
+  for (let m = 0; m < months; m++) {
+    const daysInMonth = new Date(
+      current.getFullYear(),
+      current.getMonth() + 1,
+      0
+    ).getDate();
+
+    for (let d = 1; d <= daysInMonth; d++) {
+      const date = new Date(current.getFullYear(), current.getMonth(), d);
+      const dayOfWeek = date.getDay(); // 0 = Minggu, 1 = Senin, ...
+
+      if (weeklySchedule[dayOfWeek]) {
+        weeklySchedule[dayOfWeek].forEach((lesson) => {
+          const start = new Date(
+            date.getFullYear(),
+            date.getMonth(),
+            date.getDate(),
+            lesson.startHour,
+            0
+          );
+          const end = new Date(
+            date.getFullYear(),
+            date.getMonth(),
+            date.getDate(),
+            lesson.endHour,
+            lesson.endMinute
+          );
+
+          events.push({
+            title: lesson.title,
+            allDay: false,
+            start,
+            end,
+          });
+        });
+      }
+    }
+
+    current.setMonth(current.getMonth() + 1); // lanjut ke bulan berikutnya
+  }
+
+  return events;
+}
+
+// contoh pemakaian
+export const calendarEvents = generateCalendarEvents(new Date(2025, 8, 1), 24); // generate 2 tahun
+
 
 
